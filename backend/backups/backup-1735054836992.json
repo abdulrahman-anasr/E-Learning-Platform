@@ -1,0 +1,473 @@
+{
+  "timestamp": "2024-12-24T15:40:36.992Z",
+  "users": [
+    {
+      "courses": [],
+      "_id": "6753568f27b5d5536c16e350",
+      "name": "Test User",
+      "email": "user1@gmail.com",
+      "password_hash": "$2b$10$PVm4L.YTv92/uEyiDjaDf.QC/sqzFxuvURl.rK0U7.kM40jJy8YE6",
+      "role": "student",
+      "profile_picture_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWFz5u7UVNEFQ_hR1hWOHI6u5p5JMazppBw&s",
+      "course_id": [],
+      "notification_id": [],
+      "created_at": "2024-12-06T19:54:55.223Z",
+      "__v": 0,
+      "notifications": []
+    },
+    {
+      "courses": [],
+      "_id": "6754e08da1f2123182a8e8ff",
+      "name": "salma",
+      "email": "student@example.com",
+      "password_hash": "$2b$10$ie5W16pSYGDseo5FtZJbf.R/QxCs7yF0b3vKsOJvW9K.sGkqFPNmq",
+      "role": "student",
+      "course_id": [],
+      "notification_id": [],
+      "created_at": "2024-12-07T23:55:57.686Z",
+      "__v": 0,
+      "notifications": []
+    },
+    {
+      "_id": "6755c22bb308773c6716ef01",
+      "name": "nour",
+      "email": "nour@gmail.com",
+      "password_hash": "$2b$10$8PQjpRkxnpgXzviZ/jLBZ.2cIzSCVl0PT8Icsz00Sv1XTLewv2/Da",
+      "role": "instructor",
+      "course_id": [],
+      "notification_id": [],
+      "created_at": "2024-12-08T15:58:35.980Z",
+      "__v": 6,
+      "courses": [
+        "675c976abc0c4b9d69799897"
+      ],
+      "notification": [
+        "675cbc24be22a52c1f8417b7"
+      ],
+      "notifications": [
+        {
+          "user_id": [
+            "6755c22bb308773c6716ef01"
+          ],
+          "message": "The course \"software proj\" has been updated. Here are the updates: \n      Title: \"software proj\", \n      Description: \"practical course in cs\", \n      Category: \"software\",\n      Difficulty Level: \"Intermediate\"",
+          "read": false,
+          "relatedMessageId": "675c976abc0c4b9d69799897",
+          "createdAt": "2024-12-13T23:21:07.495Z",
+          "_id": "675cc163ed5b7aaed1310575"
+        },
+        {
+          "user_id": [
+            "6755c22bb308773c6716ef01"
+          ],
+          "message": "The course \"software proj 2\" has been updated. Here are the updates: \n      Title: \"software proj 2\", \n      Description: \"practical course in cs\", \n      Category: \"software\",\n      Difficulty Level: \"Intermediate\"",
+          "read": false,
+          "relatedMessageId": "675c976abc0c4b9d69799897",
+          "createdAt": "2024-12-13T23:21:50.728Z",
+          "_id": "675cc18eed5b7aaed131057e"
+        },
+        {
+          "user_id": [
+            "6755c22bb308773c6716ef01"
+          ],
+          "message": "The course \"software 2\" has been updated. Here are the updates: \n      Title: \"software 2\", \n      Description: \"practical course in cs\", \n      Category: \"software\",\n      Difficulty Level: \"Intermediate\"",
+          "read": false,
+          "relatedMessageId": "675c976abc0c4b9d69799897",
+          "createdAt": "2024-12-13T23:25:44.977Z",
+          "_id": "675cc27859374790efe17e2c"
+        },
+        {
+          "user_id": [
+            "6755c22bb308773c6716ef01"
+          ],
+          "message": "You have received a reply to your thread: \"what is it",
+          "read": false,
+          "createdAt": "2024-12-16T18:27:47.781Z",
+          "_id": "6760712374a2aeaf4025578c"
+        }
+      ]
+    },
+    {
+      "courses": [],
+      "_id": "675a1af18b908217be4f646e",
+      "name": "sarah",
+      "email": "sarah@gmail.com",
+      "password_hash": "$2b$10$OLanR4vPiLXwTbEcKZyXRel/mY6kmAH1jJ.Z5eh2Jj95fAeYy1Bwu",
+      "role": "student",
+      "created_at": "2024-12-11T23:06:25.985Z",
+      "course_id": [],
+      "notification_id": [],
+      "__v": 0,
+      "notifications": []
+    },
+    {
+      "_id": "6760d92e3a470f1d4affdd99",
+      "name": "malak",
+      "email": "malak@gmail.com",
+      "password_hash": "$2b$10$IkkwVjg/KQkZ0o0435lAuuuNmdC9407ogJORFpGgrVK31IBk01zNK",
+      "role": "student",
+      "created_at": "2024-12-17T01:51:42.674Z",
+      "courses": [
+        "675f85c66d11d8ee0ce0be67",
+        "6761e0052644b9764fac83bd"
+      ],
+      "notifications": [
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"types of testing has been added to the forum \"software testing\" with the content \"what is load testing",
+          "read": false,
+          "createdAt": "2024-12-17T01:55:49.978Z",
+          "_id": "6760da253a470f1d4affdda6"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"no idea",
+          "read": false,
+          "createdAt": "2024-12-17T01:58:48.591Z",
+          "_id": "6760dad83a470f1d4affddb1"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "Module lesson 1 for course software design has been updated",
+          "read": false,
+          "createdAt": "2024-12-17T22:48:57.772Z",
+          "_id": "6761ffd94fc72d6c89e22227"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "Module lesson 2 for course software design has been updated",
+          "read": false,
+          "createdAt": "2024-12-17T22:49:37.499Z",
+          "_id": "676200014fc72d6c89e22233"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "New module for course software design has been added",
+          "read": false,
+          "createdAt": "2024-12-17T22:50:02.719Z",
+          "_id": "6762001a4fc72d6c89e22240"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"testing",
+          "read": false,
+          "createdAt": "2024-12-22T03:54:11.434Z",
+          "_id": "67678d638bda52c1883db9b1"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"undefined has been added to the forum \"software testing\" with the content \"what is e2e",
+          "read": false,
+          "createdAt": "2024-12-23T04:21:30.383Z",
+          "_id": "6768e54a429b7393a6bbbe71"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"e2e has been added to the forum \"software testing\" with the content \"what is e2e",
+          "read": false,
+          "createdAt": "2024-12-23T04:22:11.638Z",
+          "_id": "6768e573429b7393a6bbbe81"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"unit testing has been added to the forum \"software testing\" with the content \"what is xunit",
+          "read": false,
+          "createdAt": "2024-12-23T04:27:44.545Z",
+          "_id": "6768e6c0429b7393a6bbbe96"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"test has been added to the forum \"software testing\" with the content \"testing",
+          "read": false,
+          "createdAt": "2024-12-23T11:10:51.239Z",
+          "_id": "6769453bec23d245d498768a"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"ARAF has been added to the forum \"software testing\" with the content \"SOFTWARE",
+          "read": false,
+          "createdAt": "2024-12-23T12:46:27.383Z",
+          "_id": "67695ba3d70d344827f27112"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"ZEFT has been added to the forum \"software testing\" with the content \"YARAB NKHLAS\n",
+          "read": false,
+          "createdAt": "2024-12-23T12:55:10.032Z",
+          "_id": "67695daed70d344827f2712e"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"ZEFT.2 has been added to the forum \"software testing\" with the content \"ARAF",
+          "read": false,
+          "createdAt": "2024-12-23T13:03:30.357Z",
+          "_id": "67695fa2d70d344827f2714c"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"hello\n\"",
+          "read": false,
+          "createdAt": "2024-12-23T15:58:08.332Z",
+          "_id": "676988901118b5c8d40060be"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"hii\"",
+          "read": false,
+          "createdAt": "2024-12-23T16:03:18.646Z",
+          "_id": "676989c694edbf5720f30b83"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"jjjjj\"",
+          "read": false,
+          "createdAt": "2024-12-23T18:44:13.258Z",
+          "_id": "6769af7da1c6efe3c9fbb541"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"test 1 has been added to the forum \"software testing\" with the content \"test",
+          "read": false,
+          "createdAt": "2024-12-23T19:09:04.804Z",
+          "_id": "6769b550c58d9da05174238b"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"jfjfj has been added to the forum \"software testing\" with the content \"jdjfj",
+          "read": false,
+          "createdAt": "2024-12-23T20:13:49.733Z",
+          "_id": "6769c47de2eff15ce91f4835"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"dd has been added to the forum \"software testing\" with the content \"e",
+          "read": false,
+          "createdAt": "2024-12-23T20:25:14.786Z",
+          "_id": "6769c72ae2eff15ce91f4858"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"jjj\"",
+          "read": false,
+          "createdAt": "2024-12-23T20:26:14.173Z",
+          "_id": "6769c766e2eff15ce91f487a"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"bbbx has been added to the forum \"software testing\" with the content \"z",
+          "read": false,
+          "createdAt": "2024-12-23T20:31:27.849Z",
+          "_id": "6769c89fe2eff15ce91f48cd"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"jj has been added to the forum \"software testing\" with the content \"jdjd",
+          "read": false,
+          "createdAt": "2024-12-23T20:52:33.277Z",
+          "_id": "6769cd91e2eff15ce91f493d"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "You have received a reply to your thread: \"no\"",
+          "read": false,
+          "createdAt": "2024-12-24T14:03:56.446Z",
+          "_id": "676abf4cd37f3d4d7b0bd73a"
+        },
+        {
+          "user_id": [
+            "6760d92e3a470f1d4affdd99"
+          ],
+          "message": "A new thread \"hello has been added to the forum \"software testing\" with the content \"hello hello",
+          "read": false,
+          "createdAt": "2024-12-24T14:17:37.944Z",
+          "_id": "676ac281d37f3d4d7b0bd7fc"
+        }
+      ],
+      "__v": 26
+    },
+    {
+      "_id": "67670128d03be41eb668fce5",
+      "name": "abdelrahman",
+      "email": "abdelrahman@gmail.com",
+      "password_hash": "$2b$10$JZ7Ruv7jYnM6UZ7gIIm9yuE6vThcERf8qAsX7.E.U8Oguj.20hTMO",
+      "role": "student",
+      "created_at": "2024-12-21T17:55:52.218Z",
+      "courses": [],
+      "notifications": [],
+      "__v": 0
+    },
+    {
+      "_id": "67676441e127ebe32eeae62a",
+      "name": "jannah",
+      "email": "jannah@gmail.com",
+      "password_hash": "$2b$10$xd9/ZDS3rOgTiYLXY3AjheEBbBVcddwMkKV15qMn1HJUlv4QwWWMa",
+      "role": "instructor",
+      "created_at": "2024-12-22T00:58:41.153Z",
+      "courses": [],
+      "notifications": [],
+      "__v": 0
+    },
+    {
+      "_id": "67680fbb4cb161719085c7e8",
+      "name": "habiba",
+      "email": "habiba@gmail.com",
+      "password_hash": "$2b$10$mjAILiUlTjfFLI95d.frHeF1mtpkm74JBYcCDoptFKxUgRjdcw80W",
+      "role": "instructor",
+      "created_at": "2024-12-22T13:10:19.187Z",
+      "courses": [],
+      "notifications": [],
+      "__v": 0
+    },
+    {
+      "_id": "6768118a4cb161719085c7ed",
+      "name": "jomana",
+      "email": "j@gmail.com",
+      "password_hash": "$2b$10$6ohz4CJhdKl.JAmwLwnBzeu6wxKSnExUkc1f0MK6q6ybgsDtEvcJW",
+      "role": "instructor",
+      "created_at": "2024-12-22T13:18:02.373Z",
+      "courses": [],
+      "notifications": [],
+      "__v": 0
+    },
+    {
+      "_id": "6768d2d35b5c4a1a1146f4d0",
+      "name": "hossam",
+      "email": "hossam@gmail.com",
+      "password_hash": "$2b$10$bzSEIWFfPSJis5zNxFhgHekIzaHyCXaoyic8XKnJMHMAzFl/jesaK",
+      "role": "instructor",
+      "created_at": "2024-12-23T03:02:43.807Z",
+      "courses": [],
+      "notifications": [
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"3andak ha2\"",
+          "read": false,
+          "createdAt": "2024-12-23T15:58:39.739Z",
+          "_id": "676988af1118b5c8d40060c6"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"sa7\"",
+          "read": false,
+          "createdAt": "2024-12-23T15:58:43.876Z",
+          "_id": "676988b31118b5c8d40060cf"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"sa7.2\"",
+          "read": false,
+          "createdAt": "2024-12-23T15:58:50.864Z",
+          "_id": "676988ba1118b5c8d40060d9"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"hhhh\n\"",
+          "read": false,
+          "createdAt": "2024-12-23T19:01:15.778Z",
+          "_id": "6769b37bc58d9da051742364"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"test2\"",
+          "read": false,
+          "createdAt": "2024-12-23T19:09:21.486Z",
+          "_id": "6769b561c58d9da05174239e"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"yes\"",
+          "read": false,
+          "createdAt": "2024-12-24T14:11:57.261Z",
+          "_id": "676ac12dd37f3d4d7b0bd751"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"malaksh da3wa\"",
+          "read": false,
+          "createdAt": "2024-12-24T14:16:33.335Z",
+          "_id": "676ac241d37f3d4d7b0bd780"
+        },
+        {
+          "user_id": [
+            "6768d2d35b5c4a1a1146f4d0"
+          ],
+          "message": "You have received a reply to your thread: \"aho\"",
+          "read": false,
+          "createdAt": "2024-12-24T14:16:42.987Z",
+          "_id": "676ac24ad37f3d4d7b0bd7a8"
+        }
+      ],
+      "__v": 8
+    },
+    {
+      "_id": "67697c6cd70d344827f27198",
+      "name": "abdelrahman",
+      "email": "habiba.salousa@gmail.com",
+      "password_hash": "$2b$10$Q4XPVYk50AeYgG6l7J3BNOg7w60PvYGKA961jismoVYzhIoUla.T6",
+      "role": "instructor",
+      "created_at": "2024-12-23T15:06:20.464Z",
+      "courses": [],
+      "notifications": [],
+      "__v": 0
+    }
+  ]
+}
